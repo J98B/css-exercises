@@ -220,6 +220,7 @@ h1 {
     color: #F9FAF8;
     font-style: italic;
     animation: funkyspin 3s linear infinite, funkyrainbow 2s linear infinite;
+    font-size: 32px;
 }
 
 @keyframes funkyspin {
