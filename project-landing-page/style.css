@@ -219,4 +219,32 @@ h1 {
 .funky {
     color: #F9FAF8;
     font-style: italic;
+    animation: funkyspin 3s linear infinite, funkyrainbow 2s linear infinite;
+}
+
+@keyframes funkyspin {
+    from {
+        transform: rotateX(0deg);
+    }
+    to {
+        transform: rotateX(360deg);
+    }
+}
+
+@keyframes funkyrainbow {
+    0% {
+        color: red;
+    }
+    25% {
+        color: yellow;
+    }
+    50% {
+        color: lime;
+    }
+    75% {
+        color: cyan;
+    }
+    100% {
+        color: magenta;
+    }
 }
